@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory_card/static/css/main.cbd3b947.chunk.css",
+    "main.css": "/memory_card/static/css/main.80878c59.chunk.css",
     "main.js": "/memory_card/static/js/main.cae9b19c.chunk.js",
     "main.js.map": "/memory_card/static/js/main.cae9b19c.chunk.js.map",
     "runtime-main.js": "/memory_card/static/js/runtime-main.b3853013.js",
@@ -8,7 +8,7 @@
     "static/js/2.08f1d803.chunk.js": "/memory_card/static/js/2.08f1d803.chunk.js",
     "static/js/2.08f1d803.chunk.js.map": "/memory_card/static/js/2.08f1d803.chunk.js.map",
     "index.html": "/memory_card/index.html",
-    "static/css/main.cbd3b947.chunk.css.map": "/memory_card/static/css/main.cbd3b947.chunk.css.map",
+    "static/css/main.80878c59.chunk.css.map": "/memory_card/static/css/main.80878c59.chunk.css.map",
     "static/js/2.08f1d803.chunk.js.LICENSE.txt": "/memory_card/static/js/2.08f1d803.chunk.js.LICENSE.txt",
     "static/media/Genya.bd276b0c.png": "/memory_card/static/media/Genya.bd276b0c.png",
     "static/media/Giyuu.82ca91e1.png": "/memory_card/static/media/Giyuu.82ca91e1.png",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.b3853013.js",
     "static/js/2.08f1d803.chunk.js",
-    "static/css/main.cbd3b947.chunk.css",
+    "static/css/main.80878c59.chunk.css",
     "static/js/main.cae9b19c.chunk.js"
   ]
 }
