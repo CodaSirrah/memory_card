@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/memory_card/static/css/main.cbd3b947.chunk.css",
+    "main.js": "/memory_card/static/js/main.cae9b19c.chunk.js",
+    "main.js.map": "/memory_card/static/js/main.cae9b19c.chunk.js.map",
+    "runtime-main.js": "/memory_card/static/js/runtime-main.b3853013.js",
+    "runtime-main.js.map": "/memory_card/static/js/runtime-main.b3853013.js.map",
+    "static/js/2.08f1d803.chunk.js": "/memory_card/static/js/2.08f1d803.chunk.js",
+    "static/js/2.08f1d803.chunk.js.map": "/memory_card/static/js/2.08f1d803.chunk.js.map",
+    "index.html": "/memory_card/index.html",
+    "static/css/main.cbd3b947.chunk.css.map": "/memory_card/static/css/main.cbd3b947.chunk.css.map",
+    "static/js/2.08f1d803.chunk.js.LICENSE.txt": "/memory_card/static/js/2.08f1d803.chunk.js.LICENSE.txt",
+    "static/media/Genya.bd276b0c.png": "/memory_card/static/media/Genya.bd276b0c.png",
+    "static/media/Giyuu.82ca91e1.png": "/memory_card/static/media/Giyuu.82ca91e1.png",
+    "static/media/Gyomei.c2f4df8e.png": "/memory_card/static/media/Gyomei.c2f4df8e.png",
+    "static/media/Inosuke.ec79320c.png": "/memory_card/static/media/Inosuke.ec79320c.png",
+    "static/media/Kagaya.8bfe5300.png": "/memory_card/static/media/Kagaya.8bfe5300.png",
+    "static/media/Kanao.48f11867.png": "/memory_card/static/media/Kanao.48f11867.png",
+    "static/media/Kie_Kamado.b83ed406.png": "/memory_card/static/media/Kie_Kamado.b83ed406.png",
+    "static/media/Kyojuro.16374199.png": "/memory_card/static/media/Kyojuro.16374199.png",
+    "static/media/Mitsuri.bb285d54.png": "/memory_card/static/media/Mitsuri.bb285d54.png",
+    "static/media/Muichiro.c8547e8a.png": "/memory_card/static/media/Muichiro.c8547e8a.png",
+    "static/media/Muzan.66ebc9fb.png": "/memory_card/static/media/Muzan.66ebc9fb.png",
+    "static/media/Nezuko.7e2b32a1.png": "/memory_card/static/media/Nezuko.7e2b32a1.png",
+    "static/media/Obanai.8a7e0cc6.png": "/memory_card/static/media/Obanai.8a7e0cc6.png",
+    "static/media/Sanemi.02515016.png": "/memory_card/static/media/Sanemi.02515016.png",
+    "static/media/Shinobu.6f1b9909.png": "/memory_card/static/media/Shinobu.6f1b9909.png",
+    "static/media/Tanjirou.8964b1ba.png": "/memory_card/static/media/Tanjirou.8964b1ba.png",
+    "static/media/Tengen.812816bf.png": "/memory_card/static/media/Tengen.812816bf.png",
+    "static/media/Urokodaki.e20851f6.png": "/memory_card/static/media/Urokodaki.e20851f6.png",
+    "static/media/Zenitsu.d7719452.png": "/memory_card/static/media/Zenitsu.d7719452.png",
+    "static/media/App.css": "/memory_card/static/media/bloodcrow.796b9fa4.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3853013.js",
+    "static/js/2.08f1d803.chunk.js",
+    "static/css/main.cbd3b947.chunk.css",
+    "static/js/main.cae9b19c.chunk.js"
+  ]
+}
