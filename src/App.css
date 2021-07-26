@@ -64,21 +64,44 @@ h2 {
   text-align: center;
 }
 
-div .winner-message {
+.message {
   position: absolute;
+  background-color: #ffffffce;
+  height: 100%;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid black;
-  background-color: black;
-  height: 60px;
-  width: 180px;
+  z-index: 2;
   user-select: none;
 }
 
-.winner-message > p {
+.message > p {
+  position: relative;
+  top: 50%;
+  left: 0%;
+  color: red;
+  font-size: 40px;
+  z-index: 2;
+
+}
+
+button {
+  position: relative;
+  top: 55%;
+  left: 0%;
   color: red;
   font-size: 20px;
+  border: 2px solid black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  opacity: 0;
+  display: none;
 }
 
 @media screen and (max-width: 1515px) {
@@ -106,6 +129,14 @@ div .winner-message {
   .card-title {
     font-size: 25px;
   }
+
+  .message > p {
+    font-size: 37px;
+  }
+  
+  button {
+    font-size: 19px;
+  }
 }
 
 @media screen and (max-width: 915px) {
@@ -120,6 +151,14 @@ div .winner-message {
 
   .card-title {
     font-size: 23px;
+  }
+
+  .message > p {
+    font-size: 35px;
+  }
+  
+  button {
+    font-size: 18px;
   }
 }
 
@@ -144,6 +183,14 @@ div .winner-message {
   h2 {
     font-size: 30px;
   }
+
+  .message > p {
+    font-size: 33px;
+  }
+  
+  button {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 615px) {
@@ -158,6 +205,14 @@ div .winner-message {
 
   .card-title {
     font-size: 23px;
+  }
+
+  .message > p {
+    font-size: 32px;
+  }
+  
+  button {
+    font-size: 16px;
   }
 }
 
@@ -177,6 +232,14 @@ div .winner-message {
 
   #score {
     font-size: 18px;
+  }
+
+  .message > p {
+    font-size: 30px;
+  }
+  
+  button {
+    font-size: 15px;
   }
 }
 
@@ -204,5 +267,13 @@ div .winner-message {
 
   #score {
     font-size: 17px;
+  }
+
+  .message > p {
+    font-size: 29px;
+  }
+  
+  button {
+    font-size: 14px;
   }
 }

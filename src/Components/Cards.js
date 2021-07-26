@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Info from '../Assets/CardInfo'
 import Score from './Score'
+import SHOW_HIDE from './Show_hide'
 
 let numbersDisplayed = [];
 let numbersPicked = [];
@@ -32,6 +33,7 @@ const Cards = () => {
   const [card3, setCard3] = useState(NUM_GEN());
   const [card4, setCard4] = useState(NUM_GEN());
   const [score, setScore] = useState(0);
+  const [best, setBest] = useState(0);
 
   const INCREMENT_SCORE = () => {
     setScore(score + 1);
@@ -41,24 +43,34 @@ const Cards = () => {
     setScore(0);
   }
 
+  const CHECK_BEST = () => {
+    if (score > best) {
+      setBest(score);
+    }
+  }
+
   const CHANGE_CARDS = (e) => {
     numbersDisplayed = [];
     counter = 1;  
     if (score >= 2) {
       newCard = Math.ceil(Math.random() * 4);
-      console.log(newCard);
     }
     if (numbersPicked.includes(parseInt(e.target.dataset.number))) {
+      CHECK_BEST();
       RESET_SCORE();
       numbersPicked = [];
+      SHOW_HIDE.SHOW_LOSS();
+      
     } else {
       numbersPicked.push(parseInt(e.target.dataset.number));
-      console.log(numbersPicked);
       INCREMENT_SCORE();
     }
     if (score === 18) {
       numbersPicked = [];
       RESET_SCORE();
+      setBest(19);
+      SHOW_HIDE.SHOW_WIN();
+
     }
     setCard1(NUM_GEN());
     setCard2(NUM_GEN());
@@ -68,7 +80,7 @@ const Cards = () => {
 
   return(
     <div>
-      <Score currentScore={score} />
+      <Score currentScore={score} bestScore={best}/>
       <div id='card-container'>
         <div className='Cards'>
           <img className= 'card-image' src={Info[card1][0]} alt='' data-number={card1} onClick={CHANGE_CARDS} />
